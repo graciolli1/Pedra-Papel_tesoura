@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="scripit/script.js"></script>
+    <title>Pedra Papel Tesoura</title>
+</head>
+<body>
+    <button onclick="Iniciar()">Iniciar jogo</button>
+    <input type="text" id="txtResultado">
+    <br />
+    <br />
+<div id="Jogador1">
+    <img src="scripit/pedra1.png" onclick="Escolha1()"> 
+    <img src="scripit/papel1.png" onclick="Escolha2()">
+    <img src="scripit/tesoura1.png" onclick="Escolha3()">
+</div>
+    <br />
+<div id="Jogador2">
+    <img src="scripit/pedra2.png" onclick="Escolha4()">
+    <img src="scripit/papel2.png" onclick="Escolha5()">
+    <img src="scripit/tesoura2.png" onclick="Escolha6()">
+</div>
+    <br />
+    <button onclick="Resultado()" id="btnResultado">Mostrar resultado</button>
+</body>
+</html>
